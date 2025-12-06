@@ -15,12 +15,12 @@ import os
 def load_all_models():
     # Google Drive file IDs for each model
     drive_links = {
-        "🌀 GRU (Fine-tuned)": "1iLV7JTUcMUPskJJbtbu5Y9hP0dYflRAn",
-        "🎨 Mini-VGG (Fine-tuned)": "1Ep4GjnmGXJGrwEY-uLF5m0LSBIBwkjUW",
-        "🧩 MLP (Fine-tuned)": "1bRGZJORSvcMTYwIUlkBCBQA50kptOnZP",
-        "🛠 ResNet-like (Fine-tuned)": "1B__-ApSUXav_8kprT0gjHFJBZBye-AVf",
-        "📘 CNN (Fine-tuned)": "14WRD1cuMby2bNvtloCfH6ACsvbQKeK1V",
-        "🏛 VGG-like (Fine-tuned)": "1B0Vb8BsR4mVhnGfuQqe05vHSkVK56H2g",
+        "🌀 GRU": "1iLV7JTUcMUPskJJbtbu5Y9hP0dYflRAn",
+        "🎨 Mini-VGG": "1Ep4GjnmGXJGrwEY-uLF5m0LSBIBwkjUW",
+        "🧩 MLP": "1bRGZJORSvcMTYwIUlkBCBQA50kptOnZP",
+        "🛠 ResNet-like": "1B__-ApSUXav_8kprT0gjHFJBZBye-AVf",
+        "📘 CNN": "14WRD1cuMby2bNvtloCfH6ACsvbQKeK1V",
+        "🏛 VGG-like": "1B0Vb8BsR4mVhnGfuQqe05vHSkVK56H2g",
     }
 
     models = {}
@@ -159,3 +159,4 @@ with col_center:
 
 with col_right:
     st.image("Conjunct_Characters.jpg", caption="📖 Conjunct Characters", use_container_width=True)
+
